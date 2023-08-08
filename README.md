@@ -1,0 +1,2 @@
+# ken
+namorado da barbiee
