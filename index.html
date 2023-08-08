@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Explicando que é um doc tipo HTML  -->
+<html lang="pt-br">
+<!-- Explicando que é usado a lingua portugues brasil  -->
+
+<!-- Começa o cabecalho -->
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- Aceitar simbolos e acentos -->
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Links dos arquivos -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Link da folha de estilo -->
+
+  <!-- Tipo de tipografia que o site vai usar -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
+  <!-- Titulo para organizar e para ajudar o google a te achar -->
+  <title>(EM PROGRESSO) Formulário</title>
+</head>
+
+<!-- Corpo do site -->
+
+<body>
+  <!-- Divisão de assunto -->
+  <div class="container">
+    <div class="header">
+      <!-- Titulo tipo 2 -->
+      <h2>Criar Uma Conta</h2>
+    </div>
+
+    <!-- Formulario -->
+    <form id="form" class="form">
+      <div class="form-control">
+        <!-- Nome do input -->
+        <label for="username">Nome de usuário</label>
+        <!-- Input é um espaço onde colocamos dados  -->
+        <input type="text" id="username" placeholder="Digite seu nome de usuário..." />
+        <!-- Icone -->
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <!-- Tipo de texto pequeno -->
+        <small>Mensagem de erro</small>
+      </div>
+
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Digite seu email.." />
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>Mensagem de erro</small>
+      </div>
+
+      <div class="form-control">
+        <label for="password">Senha</label>
+        <input type="password" id="password" placeholder="Digite sua senha..." />
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>Mensagem de erro</small>
+      </div>
+
+      <div class="form-control">
+        <label for="password-confirmation">Confirmação de senha</label>
+        <input type="password" id="password-confirmation" placeholder="Digite sua senha novamente..." />
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>Mensagem de erro</small>
+      </div>
+
+      <!-- Botão do tipo enviar -->
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+  <!-- Script dos icones -->
+  <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
+
+  <script src="scripts.js"></script>
+
+</body>
+
+</html>
